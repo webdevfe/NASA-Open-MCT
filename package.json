@@ -1,0 +1,20 @@
+{
+  "name": "NASA-Test-Open-MCT",
+  "version": "1.0.0",
+  "description": "NASA interview test for Open MCT project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NASA"
+  ],
+  "author": "Alex Zavodnik",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "ws": "^6.1.2"
+  }
+}

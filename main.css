@@ -1,0 +1,22 @@
+table tr:hover {
+  cursor: pointer;
+}
+
+table tr.tr-selected {
+  background-color: #999;
+}
+
+.arrow {
+  margin-left: 5px;
+  border: solid #ccc;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
